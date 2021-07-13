@@ -1,4 +1,4 @@
-# Music-Player
+# Music Player
 * [General info](#general-info) 
 * [Sources](#sources)
 * [Download](#download)
