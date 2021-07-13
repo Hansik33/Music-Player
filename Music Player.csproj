@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Music_Player</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\fast-forward.png" />
+    <None Remove="Assets\mute.png" />
+    <None Remove="Assets\open.png" />
+    <None Remove="Assets\pause.png" />
+    <None Remove="Assets\play.png" />
+    <None Remove="Assets\repeat.png" />
+    <None Remove="Assets\rewind.png" />
+    <None Remove="Assets\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\fast-forward.png" />
+    <Resource Include="Assets\mute.png" />
+    <Resource Include="Assets\open.png" />
+    <Resource Include="Assets\pause.png" />
+    <Resource Include="Assets\play.png" />
+    <Resource Include="Assets\repeat.png" />
+    <Resource Include="Assets\rewind.png" />
+    <Resource Include="Assets\stop.png" />
+  </ItemGroup>
+</Project>
